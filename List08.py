@@ -17,6 +17,6 @@ def main(list1):
         
         i += 1
 
-    return  a
+    return a
 
     return

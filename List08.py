@@ -6,4 +6,17 @@ def main(list1):
     Returns:
         list: return answer
     """
+    a = []
+    i = 0
+    while i < len(list1):
+        if int(list1[i]) == 1:
+            a.append(True)
+
+        else:
+            a.append(list1[False])
+        
+        i += 1
+
+    return a
+
     return

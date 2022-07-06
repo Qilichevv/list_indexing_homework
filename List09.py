@@ -6,4 +6,5 @@ def main(list1):
     Returns:
         bool: return answer
     """
-    return
+    return [list1[1]]*len(list1) == list1
+print(main([1,1,1,1,1]))

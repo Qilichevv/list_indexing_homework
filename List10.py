@@ -9,5 +9,5 @@ def main(list_num):
     if list_num[0]>list_num[-1]:
       return list_num[0]
     else:
-        return list_num[-1]
+        return list_num [-1]
 print(main([2,4,5,6]))
